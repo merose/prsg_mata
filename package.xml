@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package format="2">
+  <name>prsg_mata</name>
+  <version>1.0.0</version>
+  <description>
+    This package implements a ROS implementation of a Firmata host application
+    for controlling the PRSG robot version 2.
+  </description>
+  <author>Mark Rose</author>
+  <maintainer email="markrose@acm.org">Mark Rose</maintainer>
+  <url type="website">https://github.com/merose/prsg_mata</url>
+  <url type="repository">https://github.com/merose/prsg_mata.git</url>
+  <url type="bugtracker">https://github.com/merose/prsg_mata/issues</url>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>rostest</build_depend>
+  
+</package>
