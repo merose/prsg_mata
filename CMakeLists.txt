@@ -17,6 +17,7 @@ catkin_package()
 
 catkin_install_python(
     PROGRAMS
+	nodes/prsg_controller
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 catkin_python_setup()
